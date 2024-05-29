@@ -1,0 +1,25 @@
+{
+  "name": "memo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.4.5",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/highlight.js": "^10.1.0",
+    "@types/marked": "^6.0.0",
+    "highlight.js": "^11.9.0",
+    "marked": "^12.0.2"
+  }
+}
